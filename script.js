@@ -97,6 +97,9 @@ presetSelect.addEventListener('change', (e) => {
 colorBoxes.forEach((box, index) => {
     const lockBtn = box.querySelector('.lock-btn');
     lockBtn.addEventListener('click', () => toggleColorLock(box, index + 1));
+    
+    // Set default lock icon to unlocked
+    lockBtn.textContent = '🔓';
 });
 
 // Initialize
