@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Palette Generator</h1>
+        
+        <div class="controls">
+            <button id="generateBtn">Generate New Palette</button>
+            <button id="saveBtn">Save Palette</button>
+            <select id="presetPalettes">
+                <option value="">Select a Preset Palette</option>
+                <option value="ocean">Ocean</option>
+                <option value="forest">Forest</option>
+                <option value="sunset">Sunset</option>
+                <option value="neon">Neon</option>
+                <option value="pastel">Pastel</option>
+            </select>
+        </div>
+
+        <div class="palette-container">
+            <div class="color-box">
+                <div class="color" id="color1"></div>
+                <div class="color-info">
+                    <span class="hex-code">#FFFFFF</span>
+                    <button class="lock-btn" data-color="1">🔒</button>
+                </div>
+            </div>
+            <div class="color-box">
+                <div class="color" id="color2"></div>
+                <div class="color-info">
+                    <span class="hex-code">#FFFFFF</span>
+                    <button class="lock-btn" data-color="2">🔒</button>
+                </div>
+            </div>
+            <div class="color-box">
+                <div class="color" id="color3"></div>
+                <div class="color-info">
+                    <span class="hex-code">#FFFFFF</span>
+                    <button class="lock-btn" data-color="3">🔒</button>
+                </div>
+            </div>
+            <div class="color-box">
+                <div class="color" id="color4"></div>
+                <div class="color-info">
+                    <span class="hex-code">#FFFFFF</span>
+                    <button class="lock-btn" data-color="4">🔒</button>
+                </div>
+            </div>
+            <div class="color-box">
+                <div class="color" id="color5"></div>
+                <div class="color-info">
+                    <span class="hex-code">#FFFFFF</span>
+                    <button class="lock-btn" data-color="5">🔒</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
